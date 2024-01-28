@@ -17,8 +17,8 @@ const Hero = () => {
             <p className='card-text'>This is a paragraph. You can write your own content here, and fill in the blanks.</p>
             <p className='card-text'>What's your story and where do you go from here? Tell the world about your business, and make this text yours.</p>
             <div className='btn-hero'>
-                <Link to='/tours' target='_parent'><button className='btn btn-dark'>Learn More</button></Link>
-                <Link to='/contact' target='_parent'><button className='btn btn-second'>Book A Tour</button></Link>
+                <Link to='/tours' ><button className='btn btn-dark'>Learn More</button></Link>
+                <Link to='/contact' ><button className='btn btn-second'>Book A Tour</button></Link>
             </div>
         </div>
         
@@ -32,7 +32,7 @@ const Hero = () => {
           <div className='container-text'>
             <h1>Titulo Entrada Blog</h1>
             <p>Maecenas maximus urna vitae nisl semper, id volutpat ipsum scelerisque. Aenean nec ipsum finibus, eleifend dolor at, venenatis risus. Quisque varius orci et augue scelerisque luctus.</p>
-            <Link to='/about' target='_parent'>Learn More</Link>
+            <Link to='/about' >Learn More</Link>
             </div>
         </article>
         <article class="entrada-blog">
@@ -61,7 +61,7 @@ const Hero = () => {
           <div className='container-text'>
             <h1>Titulo Entrada Blog</h1>
             <p>Maecenas maximus urna vitae nisl semper, id volutpat ipsum scelerisque. Aenean nec ipsum finibus, eleifend dolor at, venenatis risus. Quisque varius orci et augue scelerisque luctus.</p>
-            <Link to='/contact' target='_parent'>Learn More</Link>
+            <Link to='/contact' >Learn More</Link>
             </div>
         </article>
     </div>
@@ -73,7 +73,7 @@ const Hero = () => {
           <div className='container-text'>
             <h1>Titulo Entrada Blog</h1>
             <p>Maecenas maximus urna vitae nisl semper, id volutpat ipsum scelerisque. Aenean nec ipsum finibus, eleifend dolor at, venenatis risus. Quisque varius orci et augue scelerisque luctus.</p>
-            <Link to='/contact' target='_parent'>Learn More</Link>
+            <Link to='/contact' >Learn More</Link>
             </div>
         </article>
         <article class="entrada-blog">
@@ -95,7 +95,7 @@ const Hero = () => {
           <div className='container-text'>
             <h1>Titulo Entrada Blog</h1>
             <p>Maecenas maximus urna vitae nisl semper, id volutpat ipsum scelerisque. Aenean nec ipsum finibus, eleifend dolor at, venenatis risus. Quisque varius orci et augue scelerisque luctus.</p>
-            <Link to='/contact' target='_parent'>Learn More</Link>
+            <Link to='/contact'>Learn More</Link>
           </div>
         </article>
     </div>

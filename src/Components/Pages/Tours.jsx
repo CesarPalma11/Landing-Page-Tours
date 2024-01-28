@@ -24,7 +24,7 @@ const Tours = () => {
             <h1>Guided Tours</h1>
             <img src={imageTour} alt='img'/>
             <p>Maecenas maximus urna vitae nisl semper, id volutpat ipsum scelerisque. Aenean nec ipsum finibus, eleifend dolor at, venenatis risus. Quisque varius orci et augue scelerisque luctus.</p>
-            <Link to='/contact' target='_parent'>Book Now</Link>
+            <Link to='/contact' >Book Now</Link>
         </article>
 
         <article class="entrada-blog">
@@ -32,7 +32,7 @@ const Tours = () => {
             <img src={imageTour} alt='img'/>
 
             <p>Maecenas maximus urna vitae nisl semper, id volutpat ipsum scelerisque. Aenean nec ipsum finibus, eleifend dolor at, venenatis risus. Quisque varius orci et augue scelerisque luctus.</p>
-            <Link to='/contact' target='_parent'>Book Now</Link>
+            <Link to='/contact' >Book Now</Link>
         </article>
 
         <article class="entrada-blog">
@@ -40,7 +40,7 @@ const Tours = () => {
             <img src={imageTour} alt='img'/>
 
             <p>Maecenas maximus urna vitae nisl semper, id volutpat ipsum scelerisque. Aenean nec ipsum finibus, eleifend dolor at, venenatis risus. Quisque varius orci et augue scelerisque luctus.</p>
-            <Link to='/contact' target='_parent'>Book Now</Link>
+            <Link to='/contact' >Book Now</Link>
         </article>
 
         <article class="entrada-blog">
@@ -48,7 +48,7 @@ const Tours = () => {
             <img src={imageTour} alt='img'/>
 
             <p>Maecenas maximus urna vitae nisl semper, id volutpat ipsum scelerisque. Aenean nec ipsum finibus, eleifend dolor at, venenatis risus. Quisque varius orci et augue scelerisque luctus.</p>
-            <Link to='/contact' target='_parent'>Book Now</Link>
+            <Link to='/contact' >Book Now</Link>
         </article>
     </div>
     </>
