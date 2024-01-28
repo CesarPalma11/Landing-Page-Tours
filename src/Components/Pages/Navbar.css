@@ -1,0 +1,28 @@
+.nav-item .nav-link {
+    color: #fff;
+    display: flex;
+    margin-right: 1rem;
+}
+@media (max-width: 991px) {
+    nav .sidebar {
+        background-color: rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(10px);
+    }
+    .offcanvas-title {
+        color: #fff;
+    }
+    button .btn-close {
+        color: #fff;
+    }
+    .dropdown-divider{
+        border: 1px solid #666666;
+    }
+    .nav-item .nav-link {
+        color: #ffffff;
+        margin-left: 1rem;
+        font-size: 1.1rem;
+    }
+    .nav-item .nav-link:hover {
+        color: #747373;
+    }
+}

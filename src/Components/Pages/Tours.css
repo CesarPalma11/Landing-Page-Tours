@@ -1,0 +1,67 @@
+.image-tour-banner {
+    width: 100%;
+    height: 1200px;
+    margin-bottom: 6rem;
+}
+img {
+    max-width: 100%;
+}
+.entrada-blog {
+    margin-bottom: 3rem;
+}
+.entrada-blog a {
+    display: flex;
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.content-about-tours {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.tres-columnas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+/** CODIGO AQUI **/
+
+@media (min-width: 768px) {
+    .tres-columnas {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
+@media (max-width: 918px) {
+    .image-tour-banner {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .tres-columnas {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 2rem;
+    }
+    .image-tour-banner {
+        width: 100%;
+        height: 100%;
+    }
+}

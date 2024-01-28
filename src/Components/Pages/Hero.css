@@ -1,0 +1,239 @@
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+.main {
+    width: 100%;
+    height: 100%;
+    background: #9bd1f5;
+}
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 100vh;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    color: #6cb8ee;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.card-text {
+    color: #fff;
+}
+.btn-hero .btn-dark {
+    background-color: #3b83bd;
+    color: #022c88;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin-left: -1em;
+    border: none;
+}
+.btn-hero .btn-dark:hover {
+    background-color: #cfc9c9;
+    color: #022c88;
+}
+.btn-hero .btn-second {
+    border: 1px solid #3b83bd;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin-left: 1em;
+}
+.btn-hero .btn-second:hover {
+    background-color: #fff;
+    color: #022c88;
+    border: none;
+}
+
+@media (max-width: 1440px) {
+    .content {
+        height: 89%;
+    }
+}
+@media (max-width: 1024px) and (min-width: 1650px) {
+    .content {
+        height: 65%;
+    }
+}
+@media (max-width: 1024px) {
+    .content {
+        height: 95%;
+    }
+}
+@media (max-width: 950px){
+    .content {
+        height: 54%;
+    }
+}
+@media (max-width: 800px) {
+    .content {
+        height: 34%;
+    }
+}
+@media (max-width: 768px) {
+    .content {
+        height:42%;
+    }
+}
+@media (max-width: 550px) {
+    .content{
+        height: 60%;
+    } 
+    video {
+        object-fit:none;
+        min-height:60vh;
+    }
+}
+@media (max-width: 430px) {
+    .content {
+        height: 60%;
+    }
+    .content .card-text{
+        font-size: 13px;
+    }
+    video {
+        object-fit:none;
+        min-height:60vh;
+    }
+}
+
+
+.contenedor {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 50vh;
+    
+}
+
+.entrada-blog a {
+    display: inline-block;
+    background-color: #0d55c0;
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .5s;
+}
+.entrada-blog a:hover {
+    background-color: #366feb;
+}
+
+.container-text {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.entrada-blog .image-enter {
+    max-width: 800px;
+    margin-top: 3rem;
+}
+.entrada-blog h1 {
+    font-size: 2.5rem;
+}
+
+.contenedor {
+
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+.image-edit {
+    max-width: 100%;
+}
+.two-images a {
+    display: inline-block;
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.outsites{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 4rem;
+}
+.reverse {
+    display: flex;
+}
+
+@media (min-width: 768px) {
+    .dos-columnas {
+        display: flex;
+        column-gap: 2rem;
+    }
+    .entrada-blog .image-enter {
+        width: 600px;
+    }
+    .contenedor {
+        padding: 0px;
+    }
+ }
+ @media (max-width: 540px) {
+    .contenedor {
+        padding: 0px;
+    }
+    .entrada-blog .image-enter {
+        max-width: 510px;
+        margin-top: 3rem;
+    }
+ }
+ @media (max-width: 430px) {
+    .contenedor {
+        padding: 0px;
+    }
+    .entrada-blog .image-enter {
+        max-width: 400px;
+        margin-top: 3rem;
+    }
+    .reverse {
+        flex-direction: column-reverse;
+    }
+ }
+
+
+
+ .custom-shape-divider-bottom-1706312517 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1706312517 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 137px;
+}
+
+.custom-shape-divider-bottom-1706312517 .shape-fill {
+    fill: #FFFFFF;
+}

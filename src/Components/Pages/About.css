@@ -1,0 +1,71 @@
+.image-crucero-banner {
+    width: 100%;
+    height: 100%;
+}
+.content-about {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+.image-edit {
+    max-width: 100%;
+}
+.two-images a {
+    display: inline-block;
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.img-yate {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+@media (min-width: 768px) {
+    .contenedor {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .image-crucero-banner {
+        height: 320px;
+    }
+    .image-two-colums {
+        display: flex;
+        column-gap: 2rem;
+    }
+}
+@media (max-width: 540px) {
+    .image-crucero-banner {
+        height: 240px;
+    }
+    .two-images {
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width: 430px) {
+    .image-crucero-banner {
+        height: 200px;
+    }
+    .contenedor {
+        margin-top: 1rem;
+    }
+}
