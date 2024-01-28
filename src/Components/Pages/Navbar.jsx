@@ -42,6 +42,7 @@ const Navbar = () => {
             <Link to='/contact' className="nav-link" target='_parent'>Contact</Link>
           </li>
 
+    
         </ul>
       </div>
     </div>
